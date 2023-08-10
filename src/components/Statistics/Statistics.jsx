@@ -5,13 +5,6 @@ import css from './Statistics.module.css';
 const Statistics = ({ total, positivePercentage, good, bad, neutral }) => (
   <>
     <ul className={css.feedbackList}>
-      {/* {options.map(opt => (
-        <li key={opt}>
-          <span>
-            {opt}: {neededState[opt]}
-          </span>
-        </li>
-      ))} */}
       <li key={'id-1'}>Good: {good}</li>
       <li key={'id-2'}>Neutral: {neutral}</li>
       <li key={'id-3'}>Bad: {bad}</li>
