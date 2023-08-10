@@ -20,6 +20,8 @@ const App = () => {
       case 'bad':
         setBadReview(prevState => prevState + 1);
         break;
+      default:
+        console.log('Wrong id!');
     }
   };
 
